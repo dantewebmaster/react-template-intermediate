@@ -8,4 +8,12 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  input, button {
+    outline: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
 `;

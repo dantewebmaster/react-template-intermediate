@@ -1,7 +1,7 @@
 import { UPDATE_VALUE } from '../actions/types';
 
 const initialState = {
-  value: 'caraiii'
+  value: 'some default value'
 };
 
 export const homeReducer = (state = initialState, action) => {
