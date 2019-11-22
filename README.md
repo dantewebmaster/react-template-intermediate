@@ -13,3 +13,5 @@ This is an initial template for creating a medium complexity project using React
 * React
 * Redux
 * Styled Components
+* Axios
+* React Router Dom
