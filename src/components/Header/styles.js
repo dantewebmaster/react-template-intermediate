@@ -18,3 +18,19 @@ export const HeaderStyled = styled.header`
     max-width: 300px;
   }
 `;
+
+export const Navigation = styled.nav`
+  display: flex;
+  justify-content: center;
+  background: #000;
+ 
+  a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+
+    &:hover {
+      color: teal;
+    }
+  }
+`;

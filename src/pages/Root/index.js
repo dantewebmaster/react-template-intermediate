@@ -12,8 +12,8 @@ export default function Root({ store }) {
   return (
     <Provider store={store}>
       <GlobalStyle whiteColor />
-      <Header title="React Template Intermediate" />
       <Router>
+        <Header title="React Template Intermediate" />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/users" component={UsersPage} />
